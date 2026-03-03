@@ -1,0 +1,7 @@
+.conteudoCentral {
+    width: 100%;
+    height: 30%;
+    padding: auto;
+    border: solid #000 1px;
+    box-sizing: border-box;
+}
