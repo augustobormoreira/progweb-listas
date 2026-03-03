@@ -1,2 +1,2 @@
 # progweb-listas
-This repository was made as a history of all the exercises done in the subject Web Programming.
+This repository stores the answers to the proposed questions of the subject Web Programming.
