@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista 04</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="problem_1">
+      <h1 id="target_title">Exercicio 1</h1>
+      <p id="target_text">Lorem Ipsum Dolor</p>
+      <button onclick="alterTitleAndParagraph()">Mude os textos!</button>
+    </div>
+
+    <div class="problem_2">
+      <h1>Exercicio 2</h1>
+      <div id="block" class="block_obj"></div>
+      <button onclick="changeBlockCss()">Me clique!</button>
+    </div>
+
+    <div class="problem_3">
+      <h1>Exercicio 3</h1>
+      <input id="target_list_item" class="mb-styling" type="text" />
+      <button class="mb-styling" onclick="addItemToList()">Inserir!</button>
+      <ul id="target_list" class="mb-styling"></ul>
+    </div>
+
+    <div class="problem_4">
+      <h1>Exercicio 4</h1>
+      <div class="problem_4_content">
+        <button onclick="decrementCounter()">-</button>
+        <h1 id="target_counter" class="counter-margin-styling">10</h1>
+        <button onclick="incrementCounter()">+</button>
+      </div>
+    </div>
+
+    <div class="problem_5">
+      <h1>Exercicio 5</h1>
+      <div class="problem_5_content">
+        <div class="card isFeatured" onclick=changeSelected(this)></div>
+        <div class="card isFeatured" onclick=changeSelected(this)></div>
+        <div class="card isFeatured" onclick=changeSelected(this)></div>
+        <div class="card isFeatured" onclick=changeSelected(this)></div>
+        <div class="card isFeatured" onclick=changeSelected(this)></div>
+        <div class="card isFeatured" onclick=changeSelected(this)></div>
+        <div class="card isFeatured" onclick=changeSelected(this)></div>
+        <div class="card isFeatured" onclick=changeSelected(this)></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

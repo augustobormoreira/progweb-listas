@@ -1,0 +1,78 @@
+.card {
+    width: 10vw;
+    min-height: 25vh;
+    border: solid 0.3vh white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh;
+    gap: 1vh;
+    border-radius: 0.5vw;
+    font-size: 2vh;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    background-image: url('/pokeball-icon.png');
+    background-size: cover;
+    width: 15vh;
+    height: 15vh;
+    opacity: 0.15;
+    bottom: -2vh;
+    right: -2vh;
+}
+
+.card:hover {
+    border: solid 0.3vh black;
+}
+
+.title_styling {
+    font-size: 3.5vh;
+    padding: 0;
+    margin: 0;
+}
+
+.small_sprite {
+    width: 10vh;
+    height: 10vh;
+}
+
+.fire{
+    background-color: #db5132;
+}
+
+.water {
+    background-color: #4565cc;
+}
+
+.grass {
+    background-color: #45d138
+}
+
+.bug {
+    background-color: #ab7941;
+}
+
+.normal {
+    background-color: #b0a9a0;
+}
+
+.poison {
+    background-color: #5b2369;
+}
+
+.flying {
+    background-color: #a0d5db;
+}
+
+.span_styling {
+    border: solid .2vh white;
+    border-radius: 1vw;
+    padding: 0 1vh 0 1vh;
+}
